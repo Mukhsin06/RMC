@@ -1,11 +1,19 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{html,js,jsx}', // Add your paths here
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-yellow': '#FFC978',
+        'dark-bg': '#181b23',
+        'light-text': '#ABAEB7',
+      },
+      fontFamily: {
+        'larken': ['Larken-Regular', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
