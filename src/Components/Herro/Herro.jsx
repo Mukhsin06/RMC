@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from './herrrobg.svg';
+import Herro_images from './Herro_images';
 
 const Herro = () => {
   return (
@@ -21,6 +22,8 @@ const Herro = () => {
           <img src={bg} alt="Background" className="w-full md:w-[720px] object-cover" />
         </div>
       </div>
+
+      <Herro_images />
     </section>
   );
 };
