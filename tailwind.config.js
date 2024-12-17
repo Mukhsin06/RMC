@@ -1,19 +1,10 @@
-module.exports = {
+export default {
   content: [
-    './src/**/*.{html,js,jsx}', // Add your paths here
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        'custom-yellow': '#FFC978',
-        'dark-bg': '#181b23',
-        'light-text': '#ABAEB7',
-      },
-      fontFamily: {
-        'larken': ['Larken-Regular', 'sans-serif'],
-        'roboto': ['Roboto', 'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
