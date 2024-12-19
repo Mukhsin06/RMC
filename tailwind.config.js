@@ -1,5 +1,6 @@
-module.exports = {
+export default {
   content: [
+<<<<<<< HEAD
     './src/**/*.{html,js,jsx}', 
   ],
   theme: {
@@ -21,6 +22,13 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
       },
     },
+=======
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+>>>>>>> 8d4662b4d9a307f6bb78850b8c5c39a39e1358dc
   },
   plugins: [],
-}
+};

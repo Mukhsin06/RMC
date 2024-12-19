@@ -78,13 +78,13 @@ function Footer() {
           </Swiper>
         </div>
         <div className="sm:flex hidden w-auto py-20 px-1">
-          <img src={img1} alt="" className="w-60" />
-          <img src={img2} alt="" className="w-60" />
-          <img src={img3} alt="" className="w-60" />
-          <img src={img4} alt="" className="w-60" />
-          <img src={img5} alt="" className="w-60" />
-          <img src={img6} alt="" className="w-60" />
-          <img src={img7} alt="" className="w-60" />
+          <img src={img1} alt="" className="w-[216px]" />
+          <img src={img2} alt="" className="w-[216px]" />
+          <img src={img3} alt="" className="w-[216px]" />
+          <img src={img4} alt="" className="w-[216px]" />
+          <img src={img5} alt="" className="w-[216px]" />
+          <img src={img6} alt="" className="w-[216px]" />
+          <img src={img7} alt="" className="w-[216px]" />
         </div>
         <div className="sm:flex justify-between sm:px-20 px-0 items-center pb-10">
           <div>
