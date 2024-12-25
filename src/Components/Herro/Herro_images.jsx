@@ -22,38 +22,49 @@ const HeroImages = () => {
                 <p className="mt-36 font-medium text-lg leading-[21px] tracking-[0.3em] text-[#ffc978]">
                     TOP SERVICES
                 </p>
-                    <h3 className="mt-3 font-regular text-[60px] leading-[77px] text-white sm:text-[50px] xs:text-[40px]">
-                            Our Specializations
-                        </h3>
-
+                <h3 className="mt-3 font-regular text-[60px] leading-[77px] text-white sm:text-[50px] xs:text-[40px]">
+                    Our Specializations
+                </h3>
             </div>
 
             <div className="hidden md:flex justify-center items-center gap-5 mt-12 relative -top-36">
-                <div style={{backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg">
-                        <div className='relative top-[400px] left-5'>
-                            <h3 className='font-semibold text-2xl'>Floor plan</h3>
-                            <p>Tempor incididunt ut labore et <br /> dolore magna aliqua. </p>
-                        </div>
+                <div
+                    style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+                    className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg"
+                >
+                    <div className='relative top-[400px] left-5'>
+                        <h3 className='font-semibold text-2xl'>Floor plan</h3>
+                        <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
+                    </div>
                 </div>
                 <div className="flex items-center relative top-28">
-                    <div style={{backgroundImage: `url(${img2})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg">
-                    <div className='relative top-[400px] left-5'>
+                    <div
+                        style={{ backgroundImage: `url(${img2})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+                        className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg"
+                    >
+                        <div className='relative top-[400px] left-5'>
                             <h3 className='font-semibold text-2xl'>Interior Design</h3>
-                            <p>Tempor incididunt ut labore et <br /> dolore magna aliqua. </p>
+                            <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
                         </div>
                     </div>
-                    <div style={{backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg ml-5">
-                    <div className='relative top-[400px] left-5'>
+                    <div
+                        style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+                        className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg ml-5"
+                    >
+                        <div className='relative top-[400px] left-5'>
                             <h3 className='font-semibold text-2xl'>Architecture Design</h3>
-                            <p>Tempor incididunt ut labore et <br /> dolore magna aliqua. </p>
+                            <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${img4})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg">
-                <div className='relative top-[400px] left-5'>
-                            <h3 className='font-semibold text-2xl'>Construction</h3>
-                            <p>Tempor incididunt ut labore et <br /> dolore magna aliqua. </p>
-                        </div>
+                <div
+                    style={{ backgroundImage: `url(${img4})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+                    className="w-[300px] h-[500px] object-cover rounded-lg shadow-lg"
+                >
+                    <div className='relative top-[400px] left-5'>
+                        <h3 className='font-semibold text-2xl'>Construction</h3>
+                        <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
+                    </div>
                 </div>
             </div>
 
@@ -70,40 +81,64 @@ const HeroImages = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <div 
-                                style={{backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} 
-                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg">
-                                <div className="relative top-[100px] left-5 text-white">
+                            <div
+                                style={{
+                                    backgroundImage: `url(${img})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat'
+                                }}
+                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg"
+                            >
+                                <div className="relative text-center text-white px-5 py-5 w-full bg-black bg-opacity-50 rounded-lg">
                                     <h3 className="font-semibold text-3xl">Floor plan</h3>
                                     <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div 
-                                style={{backgroundImage: `url(${img2})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} 
-                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg">
-                                <div className="relative top-[100px] left-5 text-white">
+                            <div
+                                style={{
+                                    backgroundImage: `url(${img2})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat'
+                                }}
+                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg"
+                            >
+                                <div className="relative text-center text-white px-5 py-5 w-full bg-black bg-opacity-50 rounded-lg">
                                     <h3 className="font-semibold text-3xl">Interior Design</h3>
                                     <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div 
-                                style={{backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} 
-                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg">
-                                <div className="relative top-[100px] left-5 text-white">
+                            <div
+                                style={{
+                                    backgroundImage: `url(${img3})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat'
+                                }}
+                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg"
+                            >
+                                <div className="relative text-center text-white px-5 py-5 w-full bg-black bg-opacity-50 rounded-lg">
                                     <h3 className="font-semibold text-3xl">Architecture Design</h3>
                                     <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div 
-                                style={{backgroundImage: `url(${img4})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} 
-                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg">
-                                <div className="relative top-[100px] left-5 text-white">
+                            <div
+                                style={{
+                                    backgroundImage: `url(${img4})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat'
+                                }}
+                                className="w-full h-[400px] flex justify-center items-center rounded-lg shadow-lg"
+                            >
+                                <div className="relative text-center text-white px-5 py-5 w-full bg-black bg-opacity-50 rounded-lg">
                                     <h3 className="font-semibold text-3xl">Construction</h3>
                                     <p>Tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
                                 </div>
